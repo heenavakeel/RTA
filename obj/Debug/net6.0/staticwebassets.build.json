@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "q6drV4Cf7yns87k3H6NRzKoF09JsvuEt/kcCCW2X9FU=",
+  "Source": "Rta",
+  "BasePath": "_content/Rta",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Rta\\wwwroot",
+      "Source": "Rta",
+      "ContentRoot": "C:\\Project\\Rta\\Team\\RTA_9_11\\rta\\Api\\Rta\\wwwroot\\",
+      "BasePath": "_content/Rta",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

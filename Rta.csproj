@@ -1,0 +1,56 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.21" />
+    <PackageReference Include="MySql.Data" Version="8.2.0" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="6.0.2" />
+    <PackageReference Include="CsvHelper" Version="30.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.11" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Reference Include="LoginDB">
+      <HintPath>..\..\bll\databases\login_db\bin\Debug\net6.0\LoginDB.dll</HintPath>
+    </Reference>
+    <Reference Include="CompDB">
+      <HintPath>..\..\bll\databases\comp_db\bin\Debug\net6.0\CompDB.dll</HintPath>
+    </Reference>
+    <Reference Include="UsersMstBLL">
+      <HintPath>..\..\bll\Admin\UsersMstBLL\bin\Debug\net6.0\UsersMstBLL.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonMstBLL">
+      <HintPath>..\..\bll\Common\CommonMstBLL\bin\Debug\net6.0\CommonMstBLL.dll</HintPath>
+    </Reference>
+     <Reference Include="FilesMstBLL">
+      <HintPath>..\..\bll\Common\FilesMstBLL\bin\Debug\net6.0\FilesMstBLL.dll</HintPath>
+    </Reference>
+    <Reference Include="InwardMstBLL">
+      <HintPath>..\..\bll\Masters\InwardMstBLL\bin\Debug\net6.0\InwardMstBLL.dll</HintPath>
+    </Reference>
+    <Reference Include="SampleMastBLL">
+      <HintPath>..\..\bll\Masters\SampleMastBLL\bin\Debug\net6.0\SampleMastBLL.dll</HintPath>
+    </Reference>
+    <Reference Include="CompMstBLL">
+      <HintPath>..\..\bll\Masters\CompMstBLL\bin\Debug\net6.0\CompMstBLL.dll</HintPath>
+    </Reference>
+     <Reference Include="FormMstBLL">
+      <HintPath>..\..\bll\Masters\FormMstBLL\bin\Debug\net6.0\FormMstBLL.dll</HintPath>
+    </Reference>
+      <Reference Include="InwardFileBLL">
+      <HintPath>..\..\bll\FileMasters\InwardFileBLL\bin\Debug\net6.0\InwardFileBLL.dll</HintPath>
+    </Reference>
+    <Reference Include="CDSLMstBLL">
+      <HintPath>..\..\bll\Masters\CDSLMstBLL\bin\Debug\net6.0\CDSLMstBLL.dll</HintPath>
+    </Reference>
+
+
+  </ItemGroup>
+
+</Project>

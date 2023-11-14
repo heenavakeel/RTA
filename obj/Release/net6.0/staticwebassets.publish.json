@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "NQpYttRLbJ4QKlclF3tt1kCcM1TJhoZ20+p343jcIz8=",
+  "Source": "Rta",
+  "BasePath": "_content/Rta",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Rta\\wwwroot",
+      "Source": "Rta",
+      "ContentRoot": "D:\\Dotnet Projects\\Api\\Rta\\wwwroot\\",
+      "BasePath": "_content/Rta",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
